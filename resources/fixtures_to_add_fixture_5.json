@@ -1,0 +1,44 @@
+{
+    "fixtureId": "5",
+    "fixtureStatus": {
+        "displayed": true,
+        "suspended": false
+    },
+    "footballFullState": {
+        "homeTeam": "Fixture5 FC",
+        "awayTeam": "Camden FC",
+        "finished": true,
+        "gameTimeInSeconds": 192,
+        "goals": [
+            {
+                "clockTime": 321,
+                "confirmed": true,
+                "id": 670012,
+                "ownGoal": false,
+                "penalty": false,
+                "period": "SECOND_HALF",
+                "playerId": 560211,
+                "teamId": "1"
+            },
+        ],
+        "period": "SECOND_HALF",
+        "possibles": [],
+        "corners": [],
+        "redCards": [],
+        "yellowCards": [],
+        "startDateTime": "2018-03-20T10:49:38.655Z",
+        "started": true,
+        "teams": [
+            {
+                "association": "HOME",
+                "name": "Fixture5 FC",
+                "teamId": "HOME"
+            },
+            {
+                "association": "AWAY",
+                "name": "Camden FC",
+                "teamId": "AWAY"
+            }
+        ]
+    }
+}

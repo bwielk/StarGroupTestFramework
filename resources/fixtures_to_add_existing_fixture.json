@@ -1,0 +1,44 @@
+{
+    "fixtureId": "3",
+    "fixtureStatus": {
+        "displayed": false,
+        "suspended": true
+    },
+    "footballFullState": {
+        "homeTeam": "Garforth FC",
+        "awayTeam": "York FC",
+        "finished": false,
+        "gameTimeInSeconds": 950,
+        "goals": [
+            {
+                "clockTime": 640,
+                "confirmed": true,
+                "id": 678606,
+                "ownGoal": false,
+                "penalty": false,
+                "period": "FIRST_HALF",
+                "playerId": 560617,
+                "teamId": "1"
+            },
+        ],
+        "period": "FIRST_HALF",
+        "possibles": [],
+        "corners": [],
+        "redCards": [],
+        "yellowCards": [],
+        "startDateTime": "2018-03-20T10:49:38.655Z",
+        "started": true,
+        "teams": [
+            {
+                "association": "HOME",
+                "name": "Garforth-FC",
+                "teamId": "HOME"
+            },
+            {
+                "association": "AWAY",
+                "name": "York-FC",
+                "teamId": "AWAY"
+            }
+        ]
+    }
+}

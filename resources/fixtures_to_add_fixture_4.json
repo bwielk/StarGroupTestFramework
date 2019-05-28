@@ -1,0 +1,44 @@
+{
+    "fixtureId": "4",
+    "fixtureStatus": {
+        "displayed": false,
+        "suspended": false
+    },
+    "footballFullState": {
+        "homeTeam": "Fixture4 Team",
+        "awayTeam": "FC United",
+        "finished": false,
+        "gameTimeInSeconds": 550,
+        "goals": [
+            {
+                "clockTime": 780,
+                "confirmed": true,
+                "id": 672626,
+                "ownGoal": false,
+                "penalty": false,
+                "period": "FIRST_HALF",
+                "playerId": 560617,
+                "teamId": "2"
+            }
+        ],
+        "period": "FIRST_HALF",
+        "possibles": [],
+        "corners": [],
+        "redCards": [],
+        "yellowCards": [],
+        "startDateTime": "2018-05-30T10:49:38.655Z",
+        "started": false,
+        "teams": [
+            {
+                "association": "HOME",
+                "name": "Fixture4 Team",
+                "teamId": "HOME"
+            },
+            {
+                "association": "AWAY",
+                "name": "FC United",
+                "teamId": "AWAY"
+            }
+        ]
+    }
+}
