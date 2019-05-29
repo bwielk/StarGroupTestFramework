@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="709c111f-58b9-451a-8641-d7e2c5f7efc1" name="Default Changelist" comment="" />
+    <list default="true" id="709c111f-58b9-451a-8641-d7e2c5f7efc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fixtures_to_add_existing_fixture.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fixtures_to_add_existing_fixture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fixtures_to_add_fixture_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fixtures_to_add_fixture_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_posting_additional_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_posting_additional_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reading_existing_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reading_existing_fixtures.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,33 +31,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/lib/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/common.py">
+        <entry file="file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/endpoints.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_reading_existing_fixtures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="289">
+              <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -55,10 +52,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_reading_existing_fixtures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python/Lib/json/decoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="354" selection-start-line="354" selection-end-line="354" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_utils/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_existing_fixture.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="748">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/endpoints.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -66,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_fixture_4.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="44" />
+            <state relative-caret-position="274">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -75,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_fixture_5.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -90,6 +129,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -97,14 +139,17 @@
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/tests/common.py" />
         <option value="$PROJECT_DIR$/tests/test_fixtures.py" />
-        <option value="$PROJECT_DIR$/resources/endpoints.py" />
         <option value="$PROJECT_DIR$/tests/test_api_fixtures.py" />
-        <option value="$PROJECT_DIR$/tests/test_reading_existing_fixtures.py" />
         <option value="$PROJECT_DIR$/resources/fixtures_to_add.py" />
         <option value="$PROJECT_DIR$/resources/fixtures_to_add.json" />
         <option value="$PROJECT_DIR$/resources/fixtures_to_add_fixture_4.json" />
+        <option value="$PROJECT_DIR$/tests/test_reading_existing_fixtures.py" />
+        <option value="$PROJECT_DIR$/test_utils/utils.py" />
         <option value="$PROJECT_DIR$/resources/fixtures_to_add_fixture_5.json" />
+        <option value="$PROJECT_DIR$/resources/fixtures_to_add_existing_fixture.json" />
+        <option value="$PROJECT_DIR$/resources/endpoints.py" />
         <option value="$PROJECT_DIR$/lib/common.py" />
+        <option value="$PROJECT_DIR$/tests/test_posting_additional_fixtures.py" />
       </list>
     </option>
   </component>
@@ -113,6 +158,7 @@
     <option name="width" value="1935" />
     <option name="height" value="1085" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -135,6 +181,11 @@
               <item name="star_group" type="b2602c69:ProjectViewProjectNode" />
               <item name="star_group" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="star_group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="star_group" type="462c0819:PsiDirectoryNode" />
+              <item name="test_utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="star_group" type="b2602c69:ProjectViewProjectNode" />
@@ -168,8 +219,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_reading_existing_fixtures.py">
-    <configuration name="Unittests for tests.test_reading_existing_fixtures.TestFixtures.test_check_the_endpoint_returns_3_fixtures" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures">
+    <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="star_group" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +230,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_reading_existing_fixtures.TestFixtures.test_check_the_endpoint_returns_3_fixtures&quot;" />
+      <option name="_new_target" value="&quot;test_posting_additional_fixtures.TestPostingNewFixtures&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_reading_existing_fixtures.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_added" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="star_group" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,14 +244,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_reading_existing_fixtures.py&quot;" />
+      <option name="_new_target" value="&quot;test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_added&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_posted" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="star_group" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_posted&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_two_additional_fixtures_are_successfully_added" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="star_group" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_posting_additional_fixtures.TestPostingNewFixtures.test_two_additional_fixtures_are_successfully_added&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_posting_additional_fixtures.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="star_group" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_posting_additional_fixtures.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_reading_existing_fixtures.py" />
-        <item itemvalue="Python tests.Unittests for tests.test_reading_existing_fixtures.TestFixtures.test_check_the_endpoint_returns_3_fixtures" />
+        <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" />
+        <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_posted" />
+        <item itemvalue="Python tests.Unittests in test_posting_additional_fixtures.py" />
+        <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_two_additional_fixtures_are_successfully_added" />
+        <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_added" />
       </list>
     </recent_temporary>
   </component>
@@ -218,43 +314,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 44m 17s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures_test_an_additional_fixture_is_successfully_posted - 2019.05.29 at 10h 19m 45s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_posted" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 44m 49s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures_test_an_additional_fixture_is_successfully_posted - 2019.05.29 at 10h 20m 57s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_posted" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 45m 34s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 21m 15s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 45m 46s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 22m 17s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 55m 14s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 23m 56s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 58m 33s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 25m 24s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 58m 36s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 31m 41s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 58m 49s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 36m 01s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_api_fixtures_py - 2019.05.28 at 22h 58m 55s.xml">
-      <configuration name="Unittests in test_api_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 40m 23s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_reading_existing_fixtures_py - 2019.05.28 at 23h 00m 47s.xml">
-      <configuration name="Unittests in test_reading_existing_fixtures.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 42m 34s.xml">
+      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -262,15 +367,96 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_utils/utils.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_utils/utils.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_utils/utils.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_utils/utils.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_utils/utils.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/test_fixtures.py">
@@ -282,6 +468,16 @@
     <entry file="file://$PROJECT_DIR$/tests/test_fixtures.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Python/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -289,51 +485,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_existing_fixture.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_fixture_4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_fixture_5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/endpoints.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_reading_existing_fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_existing_fixture.json">
+    <entry file="file://$PROJECT_DIR$/tests/test_posting_additional_fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_fixture_4.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_fixture_5.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="289">
+          <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

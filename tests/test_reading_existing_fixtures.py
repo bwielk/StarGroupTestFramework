@@ -3,7 +3,7 @@ from resources.endpoints import endpoints
 from lib.common import basic_get_request
 
 
-class TestFixtures(unittest.TestCase):
+class TestGettingFixtures(unittest.TestCase):
 
     def setUp(self):
         fixtures_url = endpoints["get_fixtures"]
