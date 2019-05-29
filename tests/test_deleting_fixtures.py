@@ -1,7 +1,7 @@
 import unittest
 from lib.common import basic_post_request, basic_delete_request, basic_get_request
 from resources.endpoints import endpoints
-from test_utils.utils import read_json_file
+from test_utils.utils import read_json_file, delete_all_fixtures
 
 
 class TestPostingNewFixtures(unittest.TestCase):
@@ -19,9 +19,7 @@ class TestPostingNewFixtures(unittest.TestCase):
         self.assertEqual(len(all_fixtures_after_deletion), 3)
 
     def test_deleting_all_existing_fixtures(self):
-        all_fixtures_before_deletion = basic_get_request(endpoints["get_fixtures"]).json()
-        for x in range(len(all_fixtures_before_deletion), 0, -1):
-            basic_delete_request(endpoints["get_fixture_by_id"] + str(x))
+        delete_all_fixtures()
         all_fixtures_after_deletion = basic_get_request(endpoints["get_fixtures"]).json()
         self.assertEqual(len(all_fixtures_after_deletion), 0)
         base_fixtures = read_json_file("../resources/base_fixtures.json")
@@ -36,6 +34,16 @@ class TestPostingNewFixtures(unittest.TestCase):
         all_fixtures_after_deletion = basic_get_request(endpoints["get_fixtures"]).json()
         self.assertEqual(len(all_fixtures_after_deletion), 4)
         basic_delete_request(endpoints["get_fixture_by_id"] + "5")
+
+    def test_attempting_to_delete_a_fixture_that_does_not_exist_returns_an_appropriate_message(self):
+        all_fixtures_before_deletion = basic_get_request(endpoints["get_fixtures"]).json()
+        responses = [basic_delete_request(endpoints["get_fixture_by_id"] + "10"),
+                     basic_delete_request(endpoints["get_fixture_by_id"] + "5"),
+                     basic_delete_request(endpoints["get_fixture_by_id"] + "0")]
+        self.assertEqual(len(all_fixtures_before_deletion), 4)
+        self.assertEqual(all(x.status_code == 404 for x in responses), True)
+        self.assertEqual(all(x.text == "Fixture not found" for x in responses), True)
+        basic_delete_request(endpoints["get_fixture_by_id"] + "4")
 
 
 if __name__ == "__name__":
