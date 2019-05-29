@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709c111f-58b9-451a-8641-d7e2c5f7efc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_deleting_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/base_fixtures.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_posting_additional_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_posting_additional_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_deleting_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_deleting_fixtures.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +59,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_deleting_fixtures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/base_fixtures.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2277">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -137,6 +146,7 @@
         <option value="$PROJECT_DIR$/resources/endpoints.py" />
         <option value="$PROJECT_DIR$/lib/common.py" />
         <option value="$PROJECT_DIR$/tests/test_posting_additional_fixtures.py" />
+        <option value="$PROJECT_DIR$/resources/base_fixtures.json" />
         <option value="$PROJECT_DIR$/tests/test_deleting_fixtures.py" />
       </list>
     </option>
@@ -207,7 +217,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures">
+  <component name="RunManager" selected="Python tests.Unittests for test_deleting_fixtures.TestPostingNewFixtures">
+    <configuration name="Unittests for test_deleting_fixtures.TestPostingNewFixtures" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="star_group" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_deleting_fixtures.TestPostingNewFixtures&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="star_group" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,20 +274,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_two_additional_fixtures_are_successfully_added" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="star_group" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_posting_additional_fixtures.TestPostingNewFixtures.test_two_additional_fixtures_are_successfully_added&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in test_posting_additional_fixtures.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="star_group" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_deleting_fixtures.TestPostingNewFixtures" />
         <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" />
         <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_information_on_newly_added_fixture_can_be_retrieved" />
         <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_an_additional_fixture_is_successfully_posted" />
         <item itemvalue="Python tests.Unittests in test_posting_additional_fixtures.py" />
-        <item itemvalue="Python tests.Unittests for test_posting_additional_fixtures.TestPostingNewFixtures.test_two_additional_fixtures_are_successfully_added" />
       </list>
     </recent_temporary>
   </component>
@@ -302,12 +312,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 45m 38s.xml">
-      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 10h 46m 56s.xml">
-      <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 11h 14m 45s.xml">
       <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
@@ -331,6 +335,12 @@
     </history-entry>
     <history-entry file="Unittests_for_test_posting_additional_fixtures_TestPostingNewFixtures - 2019.05.29 at 11h 39m 34s.xml">
       <configuration name="Unittests for test_posting_additional_fixtures.TestPostingNewFixtures" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_deleting_fixtures_TestPostingNewFixtures - 2019.05.29 at 12h 01m 14s.xml">
+      <configuration name="Unittests for test_deleting_fixtures.TestPostingNewFixtures" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_deleting_fixtures_TestPostingNewFixtures - 2019.05.29 at 12h 02m 51s.xml">
+      <configuration name="Unittests for test_deleting_fixtures.TestPostingNewFixtures" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -457,23 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/fixtures_to_add_fixture_5.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
@@ -485,6 +478,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-237">
           <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,10 +511,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/base_fixtures.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2277">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_deleting_fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

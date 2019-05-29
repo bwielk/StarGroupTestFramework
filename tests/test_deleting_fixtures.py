@@ -24,14 +24,18 @@ class TestPostingNewFixtures(unittest.TestCase):
             basic_delete_request(endpoints["get_fixture_by_id"] + str(x))
         all_fixtures_after_deletion = basic_get_request(endpoints["get_fixtures"]).json()
         self.assertEqual(len(all_fixtures_after_deletion), 0)
+        base_fixtures = read_json_file("../resources/base_fixtures.json")
+        for fixture in base_fixtures:
+            basic_post_request(endpoints["add_fixture"], json_body=fixture)
 
     def test_deleting_a_fixture_added_before_a_newly_added_fixture(self):
-        self.posting_a_fixture4_response = basic_post_request(endpoints["add_fixture"], json_body=self.fixture5)
+        basic_post_request(endpoints["add_fixture"], json_body=self.fixture5)
         all_fixtures_before_deletion = basic_get_request(endpoints["get_fixtures"]).json()
         self.assertEqual(len(all_fixtures_before_deletion), 5)
         basic_delete_request(endpoints["get_fixture_by_id"] + "4")
         all_fixtures_after_deletion = basic_get_request(endpoints["get_fixtures"]).json()
         self.assertEqual(len(all_fixtures_after_deletion), 4)
+        basic_delete_request(endpoints["get_fixture_by_id"] + "5")
 
 
 if __name__ == "__name__":
